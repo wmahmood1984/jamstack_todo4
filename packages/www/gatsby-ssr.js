@@ -1,5 +1,7 @@
-const React = require("react")
+// const React = require("react")
 
-const wrapRootElement = require('./wrap-root-element')
+// const wrapRootElement = require('./src/apollo/wrap-root-element')
 
-exports.wrapRootElement = wrapRootElement;
+// exports.wrapRootElement = wrapRootElement;
+
+export { wrapRootElement } from './src/apollo/wrap-root-element';
